@@ -1,0 +1,12 @@
+mvn
+
+
+
+mvn test
+
+nvn install
+
+mvn clean
+
+mvn clean install
+

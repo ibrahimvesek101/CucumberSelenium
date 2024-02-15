@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.929" tests="11" skipped="0" failures="0" errors="0">
+<testcase classname="Background Kullanımı" name="Google amazon sezrch test" time="12.289">
+<system-out><![CDATA[
+Given Kullanıcı google.com sayfasındadır....................................passed
+When Kullanıcı arama kısmına amazon yazar...................................passed
+And Kullanıcı aramayı gerçekleştirdiğinde...................................passed
+Then Kullanıcı title kısmında amazon görmelidir.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background Kullanımı" name="" time="4.575">
+<system-out><![CDATA[
+Given Kullanıcı google.com sayfasındadır....................................passed
+When Kullanıcı arama kısmına linkedin yazar.................................passed
+And Kullanıcı aramayı gerçekleştirdiğinde...................................passed
+Then Kullanıcı title kısmında linkedin görmelidir...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data Table Usage" name="Datatable" time="0.008">
+<system-out><![CDATA[
+Given Asagidaki tablo bu methodda parametre olarak kullanilacaktir..........passed
+]]></system-out>
+</testcase>
+<testcase classname="First Feature Tests" name="Smoke Test 1" time="0.008">
+<system-out><![CDATA[
+Given Elimizde 5 sayısı mevcut..............................................passed
+And Elimizde 3 sayısı mevcut................................................passed
+When Bu sayılar toplandığında...............................................passed
+Then Toplamın 8 olduğu görülmelidir.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="First Feature Tests" name="Regression Test 1" time="0.006">
+<system-out><![CDATA[
+Given Elimizde 5 sayısı mevcut..............................................passed
+And Elimizde 3 sayısı mevcut................................................passed
+When Bu sayılar toplandığında...............................................passed
+Then Toplamın 8 olduğu görülmelidir.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google de &quot;ibrahim vesek&quot; araması" name="ibrahim search" time="3.577">
+<system-out><![CDATA[
+Given kullanıcı google ye girer.............................................passed
+And kullanıcı search kısmına "ibrahim vesek" yazar ve Enter tuşuna basar....passed
+Then kullanıcı arama sonuçlarının kaç olduğunu konsola yazar................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parameterized step usage" name="Parameterized steps" time="0.002">
+<system-out><![CDATA[
+Given Bu parametreli bir steptir ve değeri "ibrahim"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.1" time="0.008">
+<system-out><![CDATA[
+Given Sayi1 5...............................................................passed
+And Sayi2 3.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 8 olmalidir......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.2" time="0.003">
+<system-out><![CDATA[
+Given Sayi1 2...............................................................passed
+And Sayi2 4.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 6 olmalidir......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.3" time="0.002">
+<system-out><![CDATA[
+Given Sayi1 7...............................................................passed
+And Sayi2 8.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 15 olmalidir.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.4" time="0.003">
+<system-out><![CDATA[
+Given Sayi1 1...............................................................passed
+And Sayi2 1.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 2 olmalidir......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

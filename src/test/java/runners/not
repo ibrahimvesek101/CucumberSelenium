@@ -1,0 +1,6 @@
+Cucumber nasil calisir?
+1. Feature olustur
+2. Feature dosyasinin icini Scenario lar ile doldur
+3. Scenariolarda kullanilan steplerin step definition methodlarini yaz (StepDefinition class)
+4. Calistirmak uzere bir runner hazirla (Eger ki calistirmak icin bir runner mevcutsa gerek yok)
+5. Run tusuna bas ve arkana yaslan
